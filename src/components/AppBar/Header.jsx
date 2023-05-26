@@ -14,11 +14,11 @@ const Header = () => {
   return (
     <>
       <HeaderContainer>
-        <h1>Online Store</h1>
+        {/* <h1>Online Store</h1> */}
         <HeaderBox>
-          <StyledLink to="/">Home</StyledLink>
-          <StyledLink to="/products">Products</StyledLink>
-          <StyledLink to="/cart">Cart</StyledLink>
+          {/* <StyledLink to="/">Home</StyledLink> */}
+          <StyledLink to="/products">Shop</StyledLink>
+          <StyledLink to="/cart">Shopping Cart</StyledLink>
           <div>{countProducts}</div>
         </HeaderBox>
       </HeaderContainer>

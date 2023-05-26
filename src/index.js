@@ -13,7 +13,7 @@ import { theme } from 'utils/theme';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
-    <BrowserRouter basename="test-task">
+    <BrowserRouter basename="magazine-shop">
       <React.StrictMode>
         <ThemeProvider theme={theme}>
           <PersistGate loading={null} persistor={persistor}>
