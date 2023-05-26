@@ -6,7 +6,7 @@ export const StyledLink = styled(NavLink)`
   color: #fff;
   border: none;
   cursor: pointer;
-  margin-left: 20px;
+  margin-left: 100px;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
@@ -38,7 +38,7 @@ export const HeaderBox = styled.div`
 
   div {
     position: absolute;
-    top: -15px;
+    top: -5px;
     right: 0;
   }
 `;
