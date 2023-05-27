@@ -9,5 +9,5 @@ export const StyledProductList = styled.div`
 export const ProductGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 30px;
 `;

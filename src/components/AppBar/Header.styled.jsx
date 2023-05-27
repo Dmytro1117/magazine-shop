@@ -7,25 +7,27 @@ export const StyledLink = styled(NavLink)`
   border: none;
   cursor: pointer;
   margin-left: 100px;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
+    
   }
   &.active {
-    text-decoration: underline;
-  }
+    /* text-decoration: underline; */
+    color: #14a2e9;
+     }
 `;
 
 export const HeaderContainer = styled.header`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #2c3e50;
-  padding: 20px;
+  /* justify-content: space-between;
+  align-items: center; */
+  background-color: #205182;
+  padding: 16px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
   h1 {
     margin: 0;

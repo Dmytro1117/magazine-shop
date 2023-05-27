@@ -7,9 +7,14 @@ export const StyledCartList = styled.div`
 `;
 
 export const CartGrid = styled.div`
-  display: grid;
+display: flex;
+/* align-items: center; */
+ justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
+  grid-gap: 20px; */
 `;
 
 export const Wraper = styled.div`

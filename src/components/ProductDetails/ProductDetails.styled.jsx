@@ -6,9 +6,9 @@ export const ProductCard = styled.div`
   align-items: center;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 4px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 `;
 
 export const ProductName = styled.h6`
@@ -50,6 +50,7 @@ export const ProductPrice = styled.h6`
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  margin-top: 10px;
 `;
 
 export const AddToCartButton = styled.button`

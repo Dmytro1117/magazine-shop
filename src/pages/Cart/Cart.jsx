@@ -20,11 +20,11 @@ const Cart = () => {
     <div>
       <StyledCartList>
         <Wraper>
-          <h2>Your Cart</h2>
+          <h2>Your shopping Cart</h2>
           <h4>Total: {Number(totalSum.toFixed(1))}$</h4>
         </Wraper>
         {items.length === 0 ? (
-          <p>Your cart is empty</p>
+          <p>Your shopping cart is empty</p>
         ) : (
           <>
             <ul>

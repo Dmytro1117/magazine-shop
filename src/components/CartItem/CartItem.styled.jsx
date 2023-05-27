@@ -5,16 +5,20 @@ export const ListItem = styled.li`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 25px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  max-width: 200px;
+  padding: 40px;
+  border: 1px solid #0a9ae8;
+  border-radius: 5px;
+  /* margin-bottom: 10px; */
+  max-width: 300px;
   position: relative;
 
   div:first-child {
     font-weight: bold;
     margin-bottom: 10px;
+    text-align: center;
+    width: 250px;
+    max-height: 20px;
+    overflow: hidden;
   }
 
   img {
@@ -36,8 +40,8 @@ export const ListItem = styled.li`
 
   button {
     background-color: #fff;
-    color: #f44336;
-    border: 1px solid #f44336;
+    color: #0a9ae8;
+    border: 1px solid #0a9ae8;
     border-radius: 3px;
     padding: 5px 10px;
     cursor: pointer;
@@ -45,7 +49,7 @@ export const ListItem = styled.li`
     margin-top: 10px;
 
     &:hover {
-      background-color: #f44336;
+      background-color: #0a9ae8;
       color: #fff;
     }
   }
@@ -55,5 +59,5 @@ export const Price = styled.div`
   position: absolute;
   top: 5px;
   right: 5%;
-  color: #f44336;
+  color: #0a9ae8;
 `;

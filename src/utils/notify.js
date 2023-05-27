@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 //message Toast
 export const succesNotify = () => {
-  toast.success('The product has been added to the cart!', {
+  toast.success('Added to the shopping cart!', {
     position: toast.POSITION.TOP_LEFT,
   });
 };

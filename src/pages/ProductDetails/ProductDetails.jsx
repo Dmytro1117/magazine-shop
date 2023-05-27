@@ -29,7 +29,7 @@ const ProductDetails = () => {
     <Container>
       <BackButton onClick={() => navigate(location.state?.from || '/products')}>
         <BackIcon />
-        Back to products
+        Back
       </BackButton>
       <ProductDetailsContainer>
         <ProductDetailsItem product={product} />

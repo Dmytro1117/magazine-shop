@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from 'redux/cart/actions';
+import { succesNotify } from 'utils/notify';
 //styles
 import {
   ProductCard,
@@ -41,6 +42,7 @@ export default function ProductDetailsItem({ product }) {
         <ProductPrice>${price}</ProductPrice>
         <AddToCartButton
           onClick={() => {
+            succesNotify();
             dispatch(
               addToCart({
                 id,
