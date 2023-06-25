@@ -1,1 +1,3 @@
 # magazine-shop
+
+and other
